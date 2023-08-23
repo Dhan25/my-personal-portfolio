@@ -80,6 +80,7 @@ nav {
         margin-bottom: 1rem;
         transform: translateX(100.3%);
         transition: var(--transition);
+        font-size: 1.2rem;
     }
 
     .nav__container .nav__menu .nav__links::before {
