@@ -1,0 +1,104 @@
+header {
+    margin-top: 5rem;
+    height: calc(100vh - 5rem);
+    display: grid;
+    place-items: center;
+    background: var(--color-white);
+    transition: var(--transition);
+}
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.header__portrait {
+    width: 15rem;
+    height: 15rem;
+    /* border-radius: 9rem 9rem 2rem 2rem; */
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    
+}
+
+.header__container p {
+    width: 35rem;
+    text-align: center;
+    margin: 0.6rem 0 2rem;
+}
+
+.header__cta {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.header__cta span {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.html__logo {
+    color: #FB8500;
+}
+
+.js__logo {
+    color: #FFBE0B;
+}
+
+.tailwind__logo {
+    color: #48CAE4;
+}
+
+.react__logo {
+    color: #00B4D8;
+}
+
+.css__logo {
+    color: #0077B6;
+}
+
+.git__logo {
+    color: #f34f29;
+}
+
+.about__desc {
+    color: var(--color-primary);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* RESPONSIVE FOR TABLETS */
+@media screen and (max-width: 1024px) {
+    header {
+        margin-top: 0;
+        height: 100%;
+    }
+}
+
+/* RESPONSIVE FOR MOBILE PHONE */
+@media screen and (max-width: 600px) {
+    .header__profile {
+        width: 14rem;
+        height: 18rem;
+        max-width: 60%;
+        max-height: 37vh;
+    }
+
+    .header__container p {
+        width: 100%;
+    }
+
+    .header__cta {
+        gap: 1rem;
+    }
+
+    .header__cta span {
+        width: fit-content;
+        font-size: 32px;
+    }
+}

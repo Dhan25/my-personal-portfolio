@@ -1,0 +1,142 @@
+nav {
+    width: 100vw;
+    height: 5rem;
+    display: grid;
+    place-items: center;
+    background: #BF0A0A;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    box-shadow: 0 1rem 1.5rem hsla(var(--primary-hue), 68%, 42%, 20%);
+    transition: var(--transition);
+}
+
+.navBar__title {
+    color: #ffff;
+}
+
+.nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.nav__menu {
+    display: flex;
+    gap: 2.2rem;
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.nav__container .nav__menu .nav__menu__items .nav__links {
+    position: relative;
+    display: flex;
+}
+
+.nav__container .nav__menu li .nav__links::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0.1rem;
+    background: white;
+    transition: var(--transition);
+}
+
+.nav__container .nav__menu .nav__links:hover::before {
+    width: 100%;
+} 
+
+.nav__toggle {
+    display: none;
+}
+
+
+/* HIDE NAV TABLETS */
+
+@media screen and (max-width: 600px) {
+    .nav__container .nav__menu {
+        position: absolute;
+        top: 80px;
+        right: 3rem;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+        background-color: gray;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding: 3rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        transform: translateX(100.3%);
+        transition: var(--transition);
+    }
+
+    .nav__container .nav__menu .nav__links::before {
+        background: transparent;
+    }
+
+    .nav__container .nav__menu.open {
+        transform: translateX(0);
+    }
+
+    .nav__toggle {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .nav__toggle .nav__bar {
+        position: relative;
+        width: 32px;
+        height: 2px;
+        background-color: #ffffff;
+    }
+
+    .nav__toggle .nav__bar::before , .nav__toggle .nav__bar::after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        background: #ffffff;
+        border-radius: 2px;
+        transition: var(--transition);
+    }
+
+    .nav__toggle .nav__bar::before {
+        width: 25px;
+        transform: translateY(-8px);
+        right: 0;
+    }
+
+    .nav__toggle .nav__bar::after {
+        width: 32px;
+        transform: translateY(8px);
+    }
+
+    .nav__toggle.open .nav__bar {
+        transform: translateX(-40px);
+        background: transparent;
+    }
+
+    .nav__toggle.open .nav__bar::before {
+        width: 32px;
+        transform: rotate(45deg) translate(26px, -26px);
+    }
+
+    .nav__toggle.open .nav__bar::after {
+        transform: rotate(-45deg) translate(26px, 26px);
+    }
+}

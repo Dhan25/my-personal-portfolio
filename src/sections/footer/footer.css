@@ -1,0 +1,28 @@
+.footer__container {
+    height: 3rem;
+    width: 100%;
+    background: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__content {
+    display: grid;
+    place-items: center;
+}
+
+.footer__right span {
+    font-size: 0.8rem;
+    color: var(--color-light);
+}
+
+
+
+@media screen and (max-width: 600px){
+    .footer__right span {
+        width: 100%;
+    }
+
+}
+
