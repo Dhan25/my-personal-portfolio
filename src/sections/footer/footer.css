@@ -22,7 +22,6 @@
 @media screen and (max-width: 600px){
     .footer__right span {
         width: 100%;
-        padding: 2rem;
     }
 
 }
