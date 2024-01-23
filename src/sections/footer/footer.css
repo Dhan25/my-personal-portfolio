@@ -13,7 +13,7 @@
 }
 
 .footer__right span {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: var(--color-light);
 }
 
@@ -22,6 +22,7 @@
 @media screen and (max-width: 600px){
     .footer__right span {
         width: 100%;
+        padding: 2rem;
     }
 
 }
