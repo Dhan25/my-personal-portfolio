@@ -43,6 +43,9 @@
     
     .contact__content .contact__card {
          margin-bottom: 1.2em;
+         text-align: center;
+         display: flex;
+         align-items: center;
     }
 
 }

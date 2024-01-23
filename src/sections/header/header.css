@@ -84,9 +84,9 @@ header {
 @media screen and (max-width: 600px) {
     .header__profile {
         width: 14rem;
-        height: 18rem;
+        height: 22rem;
         max-width: 60%;
-        max-height: 37vh;
+        max-height: 100vh;
     }
 
     .header__container p {
