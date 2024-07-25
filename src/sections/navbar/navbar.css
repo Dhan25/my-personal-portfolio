@@ -62,7 +62,7 @@ nav {
 
 /* HIDE NAV TABLETS */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px) {
     .nav__container .nav__menu {
         position: absolute;
         top: 80px;
