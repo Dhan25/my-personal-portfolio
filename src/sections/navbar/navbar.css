@@ -62,7 +62,7 @@ nav {
 
 /* HIDE NAV TABLETS */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
     .nav__container .nav__menu {
         position: absolute;
         top: 80px;
@@ -82,6 +82,10 @@ nav {
         transition: var(--transition);
         font-size: 1.2rem;
     }
+
+    /* @media screen and (max-width: 1024px) {
+        
+    } */
 
     .nav__container .nav__menu .nav__links::before {
         background: transparent;
