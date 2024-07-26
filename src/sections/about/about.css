@@ -76,6 +76,16 @@
 
     .about__right h2 {
         text-align: center;
+        font-size: 50px
+    }
+
+    .about_info  {
+        margin-left: 40px;
+    }
+
+    #resume_btn {
+        margin-left: 40px;
+        font-size: 15px;
     }
 }
 
@@ -84,19 +94,25 @@
     .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
+        margin-top: 3rem;
     }
 
     .about__right p {
         font-size: 1rem;
         line-height: 2rem;
+        margin-top: 3rem;
     }
 
     .about__right a {
         margin-top: 2rem;
         font-size: 15px;
     }
+
+    .about_me {
+        margin-top: 2rem;
+    } 
     
     .about__container {
-        height: 100%;
+        height: 38rem;
     }
 }

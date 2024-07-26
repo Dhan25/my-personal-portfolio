@@ -21,7 +21,7 @@ const About = () => {
           </div>
         </div>
         <div className="about__right" data-aos="fade-down" data-aos-delay="600">
-          <h2>
+          <h2 className="about_me">
             About <span className="about__span">Me</span>
           </h2>
           <div className="about__cards">
@@ -33,13 +33,13 @@ const About = () => {
               </Card>
             ))}
           </div>
-          <p>
+          <p className="about_info">
             Aspiring front-end developer who creates and develop web
             applications and bringing you design from the future. My expertise
             is developing websites and web applications including full frontend
             design.
           </p>
-          <a target="_blank" href={resume} download="Resume" className="btn primary">
+          <a id="resume_btn" target="_blank" href={resume} download="Resume" className="btn primary">
             Download Resume <HiDownload />
           </a>
         </div>

@@ -16,7 +16,7 @@ const Navbar = () => {
         <ul className={`nav__menu ${menuOpen && "open"}`} >
           {data.map((item) => (
             <li onClick={() => setMenuOpen(false)} key={item.id} className="nav__menu__items">
-              <a className="nav__links" href={item.link}>{item.title} </a>
+              <a id="nav_info" className="nav__links" href={item.link}>{item.title} </a>
             </li>
           ))}
         </ul>

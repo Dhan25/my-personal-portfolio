@@ -1,5 +1,5 @@
 .footer__container {
-    height: 3rem;
+    height: 3.5rem;
     width: 100%;
     background: var(--color-primary);
     display: flex;
@@ -22,6 +22,8 @@
 @media screen and (max-width: 600px){
     .footer__right span {
         width: 100%;
+        display: flex;
+        text-align: center;
     }
 
 }
