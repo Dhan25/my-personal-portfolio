@@ -43,13 +43,13 @@ export const Portfolio = () => {
             </div>
 
             <div className="portfolio__demo">
-              <a
+              <a target="_blank"
                 href="https://sample-landing-page-lake.vercel.app/"
                 className="btn primary sm"
               >
                 Demo
               </a>
-              <a
+              <a target="_blank"
                 href="https://github.com/Dhan25/sample-landing-page"
                 className="btn white sm git-btn"
               >
@@ -81,13 +81,13 @@ export const Portfolio = () => {
             </div>
 
             <div className="portfolio__demo">
-              <a
+              <a target="_blank"
                 href="https://product-landing-page-roan.vercel.app/"
                 className="btn primary sm"
               >
                 Demo
               </a>
-              <a
+              <a target="_blank"
                 href="https://product-landing-page-git-main-dhan25.vercel.app/"
                 className="btn white sm git-btn"
               >
@@ -121,13 +121,13 @@ export const Portfolio = () => {
             </div>
 
             <div className="portfolio__demo">
-              <a
+              <a target="_blank"
                 href="https://responsive-cards-sepia.vercel.app/"
                 className="btn primary sm"
               >
                 Demo
               </a>
-              <a
+              <a target="_blank"
                 href="https://responsive-cards-git-main-dhan25.vercel.app/"
                 className="btn white sm git-btn"
               >
@@ -161,13 +161,13 @@ export const Portfolio = () => {
             </div>
 
             <div className="portfolio__demo">
-              <a
+              <a target="_blank"
                 href="https://react-calculator-ivory-theta.vercel.app/"
                 className="btn primary sm"
               >
                 Demo
               </a>
-              <a
+              <a target="_blank"
                 href="https://react-calculator-git-main-dhan25.vercel.app/"
                 className="btn white sm git-btn"
               >
@@ -201,13 +201,13 @@ export const Portfolio = () => {
             </div>
 
             <div className="portfolio__demo">
-              <a
+              <a target="_blank"
                 href="https://food-website-theta-sepia.vercel.app/"
                 className="btn primary sm"
               >
                 Demo
               </a>
-              <a
+              <a target="_blank"
                 href="https://food-website-theta-sepia.vercel.app/"
                 className="btn white sm git-btn"
               >

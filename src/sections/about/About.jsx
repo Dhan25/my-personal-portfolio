@@ -39,7 +39,7 @@ const About = () => {
             is developing websites and web applications including full frontend
             design.
           </p>
-          <a href={resume} download="Resume" className="btn primary">
+          <a target="_blank" href={resume} download="Resume" className="btn primary">
             Download Resume <HiDownload />
           </a>
         </div>
